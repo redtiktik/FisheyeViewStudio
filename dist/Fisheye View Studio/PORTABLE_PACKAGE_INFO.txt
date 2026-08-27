@@ -1,0 +1,18 @@
+Fisheye View Studio Compact Portable Package
+=============================================
+
+Build date: Thu 08/27/2026 11:11:16.23
+Architecture: Windows x64
+ZIP limit: less than 100,000,000 bytes
+
+Application:
+  Fisheye View Studio.exe
+
+Bundled FFmpeg:
+  _internal\tools\ffmpeg.exe
+
+ffprobe.exe is not bundled. The application reads media information
+through ffmpeg.exe itself.
+
+Python and PySide6/Qt are bundled by PyInstaller.
+Python and FFmpeg do not need to be installed on the destination PC.

@@ -1,0 +1,14 @@
+Fisheye View Studio - Compact Build Revision
+=============================================
+
+This revision includes the ZIP path-separator verification fix and adds a
+hard package-size check.
+
+The verifier now:
+- Recognizes both slash styles used in Windows ZIP entries.
+- Confirms the application and ffmpeg.exe are present.
+- Confirms ffprobe.exe is intentionally absent.
+- Extracts the archive and runs the bundled ffmpeg.exe.
+- Rejects a ZIP that is 100,000,000 bytes or larger.
+
+Run Verify-Portable-Zip.bat to test an existing compact ZIP.

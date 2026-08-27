@@ -1,0 +1,9 @@
+FISHEYE VIEW STUDIO - GENERIC BUILD
+===================================
+
+This source package uses generic application, publisher, profile, and settings identifiers.
+It contains no organization-specific URLs, tenant names, email addresses, user profile paths,
+location names, customer names, or private SharePoint configuration.
+
+Rebuild the application and installer from this package before distribution. Previously compiled
+executables or installers are not changed by replacing the source files.

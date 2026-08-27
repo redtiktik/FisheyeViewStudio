@@ -1,0 +1,26 @@
+FISHEYE VIEW STUDIO - COMPACT PORTABLE BUILD
+
+Build a self-contained ZIP below 100,000,000 bytes:
+
+1. Run Setup-FFmpeg-Portable.bat
+2. Confirm tools\ffmpeg.exe exists
+3. Run Build-Portable-Under-100MB.bat
+4. Use the verified ZIP created here:
+
+   dist\Fisheye-View-Studio-Windows-x64.zip
+
+The compact build includes:
+- Fisheye View Studio
+- Python runtime
+- PySide6 Essentials and required Qt files
+- ffmpeg.exe and required FFmpeg DLLs
+
+The compact build intentionally excludes:
+- ffprobe.exe
+- PySide6 Addons
+
+The app uses ffmpeg.exe itself to read video metadata when ffprobe is absent.
+The build fails if the final ZIP is 100,000,000 bytes or larger.
+
+Run Verify-Portable-Zip.bat at any time to retest the existing ZIP.
+See README.md for complete details.

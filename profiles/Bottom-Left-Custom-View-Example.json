@@ -1,0 +1,14 @@
+{
+  "format": "FisheyeViewStudioLayout",
+  "version": 1,
+  "views": [
+    {"name": "Primary Bottom Left", "roll": -135.0, "pitch": 55.0, "h_fov": 100.0, "v_fov": 70.0, "enabled": true, "color": "#38BDF8"},
+    {"name": "Top", "roll": 0.0, "pitch": 55.0, "h_fov": 100.0, "v_fov": 70.0, "enabled": true, "color": "#22C55E"},
+    {"name": "Right", "roll": 90.0, "pitch": 55.0, "h_fov": 100.0, "v_fov": 70.0, "enabled": true, "color": "#F59E0B"},
+    {"name": "Bottom", "roll": 180.0, "pitch": 55.0, "h_fov": 100.0, "v_fov": 70.0, "enabled": true, "color": "#F43F5E"},
+    {"name": "Left", "roll": -90.0, "pitch": 55.0, "h_fov": 100.0, "v_fov": 70.0, "enabled": true, "color": "#A78BFA"},
+    {"name": "Center", "roll": 0.0, "pitch": 0.0, "h_fov": 110.0, "v_fov": 80.0, "enabled": true, "color": "#14B8A6"}
+  ],
+  "timestamp": {"enabled": true, "crop_x": 0, "crop_y": 0, "crop_width": 700, "crop_height": 55, "overlay_width": 700, "overlay_x": 0, "overlay_y": 0},
+  "render": {"output_width": 1920, "output_height": 1080, "bitrate_kbps": 3000, "audio_bitrate_kbps": 128, "maxrate_kbps": 5000, "buffer_kbps": 12000, "interpolation": "cubic", "encoder_mode": "auto", "test_seconds": 0}
+}

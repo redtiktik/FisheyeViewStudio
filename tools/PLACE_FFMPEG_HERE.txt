@@ -1,0 +1,7 @@
+Run Setup-FFmpeg-Portable.bat to place the required portable media tool here:
+
+- ffmpeg.exe
+- Any DLL files required by that FFmpeg build
+
+ffprobe.exe is intentionally omitted from the compact package. The application
+uses ffmpeg.exe itself for media probing when ffprobe is unavailable.

@@ -1,0 +1,15 @@
+FFmpeg Third-Party Notice
+=========================
+
+This portable package contains an FFmpeg binary obtained from the
+FFmpeg installation selected when Setup-FFmpeg-Portable.bat was run.
+
+Project information and source code:
+https://ffmpeg.org/
+
+The exact build configuration is recorded in FFMPEG_BUILD_INFO.txt.
+Any license files located with the selected build were copied into
+tools\licenses\FFmpeg.
+
+ffprobe.exe is intentionally not bundled. The application uses
+ffmpeg.exe itself to read media information.
